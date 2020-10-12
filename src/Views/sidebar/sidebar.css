@@ -1,0 +1,8 @@
+.sidebar{
+    position: fixed;
+    grid-column: 1;
+    width: 20%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    text-align: center;
+}
