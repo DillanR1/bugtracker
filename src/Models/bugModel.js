@@ -1,6 +1,5 @@
-export default bug
 
-funvtion bug(bug){
+function bug(bug){
     if(bug != undefined){
         this.id_ = bug._id;
         this.name = bug.name;
@@ -13,3 +12,4 @@ funvtion bug(bug){
     }
 }
 
+export default bug;

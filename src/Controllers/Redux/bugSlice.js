@@ -1,5 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit'
-import { retrieveBugs } from '../bugController'
+import { createSlice } from '@reduxjs/toolkit';
+import { retrieveBugs } from '../bugController';
 
 const slice = createSlice({
     name:"bug",
@@ -17,7 +17,7 @@ const slice = createSlice({
 
         }
     }
-})
+}) 
 
 export default slice.reducer;
 
