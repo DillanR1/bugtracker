@@ -26,7 +26,7 @@ export default () => {
     }
 
     return(
-        <div className="loginScreen">
+        <div className="login-screen">
             <form className='login-panel'>
                 <h1>Login:</h1>
                 <input name='name' placeholder='Name' onChange={inputChanged} value={formInput.name}></input>
