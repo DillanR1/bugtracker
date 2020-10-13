@@ -1,3 +1,4 @@
+export default bug;
 
 
 function bug(bug){
@@ -13,4 +14,3 @@ function bug(bug){
     }
 }
 
-export default bug;
