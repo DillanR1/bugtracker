@@ -13,7 +13,7 @@ const slice = createSlice({
         updateBug:(state, actions) => {
 
         },
-        markComplete:(state, action) =>{
+        markComplete:(state, action) => {
 
         }
     }
