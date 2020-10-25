@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getBugs } from '../../../Controllers/Redux/bugSlice';
-import { getBugs } from '../../../Controllers/Redux/bugSlice'; 
 import Card from '../../Components/Dashboard/card';
 
 export default () => {
@@ -10,10 +9,10 @@ export default () => {
     let highCount = 0
     let midCount = 0
     let lowCount = 0
-    IF(bugs!=undefined){
+    if (bugs!= undefined) {
         highCount = filterBugs(1);
-        highCount = filterBugs(2);
-        highCount = filterBugs(3);
+        midCount = filterBugs(2);
+        lowCount = filterBugs(3);
 
     }
 

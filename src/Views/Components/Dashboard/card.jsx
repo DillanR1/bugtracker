@@ -7,7 +7,7 @@ export default (props) => {
 
     return(
         <div className='dashboard-card' style={{color: color}}>
-            <h2>Total:</h2>
+            <h2>Total: {level}</h2>
             <p>{props.count}</p>
         </div>
     )
