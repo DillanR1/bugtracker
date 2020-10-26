@@ -11,16 +11,17 @@ function App() {
   const {auth} = useSelector(state => state)
   return (
     <Router>
-    {!auth.LoggedIn ? <Login /> :
-      <>
-        <Sidebar />
-        <Switch>
-          <Route path="/" exact ><Dashboard /></Route>
-          <Route path="/viewbugs"><ViewBugPage /></Route>
-          <Router path="/create"><div className='page-container'><CreateBug title="Create Bug" /></div></Router>
-        </Switch>
-      </>
-    }
+      {!auth.LoggedIn ? <Login /> :
+        <>
+          <Sidebar />
+          <Switch>
+            <Route path="/" exact ><Dashboard /></Route>
+            <Route path="/viewbugs"><ViewBugPage /></Route>
+            <Router path="/create"><div className='page-container'><CreateBug title="Create Bug" /></div>
+            </Router>
+          </Switch>
+        </>
+      }
     </Router>
   );
 }

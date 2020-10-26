@@ -1,3 +1,4 @@
+
 const colors = ["#b33a3a", "#ff6700", "#32cd32"]
 
 export default (priority) => {
